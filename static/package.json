@@ -1,0 +1,21 @@
+{
+    "private": true,
+    "devDependencies": {
+        "@babel/cli": "^7.1.2",
+        "@babel/core": "^7.1.2",
+        "@babel/preset-env": "^7.1.0",
+        "@babel/preset-react": "^7.0.0",
+        "babel-plugin-transform-class-properties": "^6.24.1",
+        "webpack": "^4.29.3",
+        "webpack-cli": "^3.2.3"
+    },
+    "scripts": {
+        "build": "babel src/ --source-maps true --copy-files --out-dir build; webpack"
+    },
+    "dependencies": {
+        "bootstrap": "^4.3.1",
+        "jquery": "^3.3.1",
+        "react": "^16.5.2",
+        "react-dom": "^16.5.2"
+    }
+}
