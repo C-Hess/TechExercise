@@ -1,9 +1,12 @@
 **/.DS_Store
 .settings
+.project
 .classpath
 .vscode
 techexercise.code-workspace
-static/node_modules
-static/yarn.lock
-static/build/*
-static/dist/js/*
+app-static-web/node_modules
+app-static-web/yarn.lock
+app-static-web/build/*
+app-static-web/dist/js/*
+app-static-web/target/*.tar.gz
+app-static-web/yarn-error.log
